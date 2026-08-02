@@ -1,8 +1,22 @@
 aid: tastemade
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tastemade.png
 name: Tastemade
-description: Tastemade is a company surfaced as a portfolio company of redpoint-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Tastemade is a modern media company producing food, travel, and home & design video
+  programming for a global millennial and Gen-Z audience. Founded in 2012, it distributes short- and
+  long-form video across social platforms, connected-TV apps, and its ad-supported and subscription
+  Tastemade+ streaming service, and runs a branded-content studio for advertisers. It was surfaced as
+  a portfolio company of redpoint-ventures; enrichment found no public developer or API surface.
 url: https://raw.githubusercontent.com/api-evangelist/tastemade/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,15 +26,30 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Media
+- Video
+- Streaming
+- Food
+- Travel
+- Lifestyle
+- Content
+- Entertainment
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/tastemade-domain-security.yml
 - type: Website
   url: http://www.tastemade.com/about
