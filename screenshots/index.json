@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "tastemade",
+    "captured_at": "2026-10-11T193004",
+    "source_url": "http://www.tastemade.com/about",
+    "source_type": "Website",
+    "file": "tastemade-2026-10-11T193004.png",
+    "bytes": 698472,
+    "capture": "playwright-local"
+  }
+]
